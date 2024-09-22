@@ -41,8 +41,8 @@ public class Zoo {
         for (int i = indexAnimal; i < nbrAnimals; i++) {
             animals[i] = animals[i + 1];
         }
-        animals[nbrAnimals] = null;
         this.nbrAnimals--;
+        animals[nbrAnimals] = null;
         return true;
     }
 
